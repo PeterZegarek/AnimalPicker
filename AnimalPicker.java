@@ -10,11 +10,11 @@ public class AnimalPicker{
             String input = sc.nextLine();
             if (input.equals("D")){
                 selected = true;
-                System.out.println("Dog ASCII");
+                System.out.println("                                  .-.\n     (___________________________()6 `-,\n     (   ______________________   /\'\'\"`\n     //\\\\                      //\\\\\n     \"\" \"\"                     \"\" \"\"");
             }
             else if (input.equals("C")){
                 selected = true;
-                System.out.println("Cat ASCII");
+                System.out.println("|\\---/|\n| o_o |\n \\_^_/");
             }
             else {
                 System.out.println("Please enter a valid input");
