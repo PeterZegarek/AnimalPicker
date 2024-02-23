@@ -12,7 +12,9 @@ public class AnimalPicker{
             else if (input.equals("C")){
                 System.out.println("Cat ASCII");
             }
-        
+            else {
+                System.out.println("Please enter a valid input");
+            }
         
 
         
