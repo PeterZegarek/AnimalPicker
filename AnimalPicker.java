@@ -6,7 +6,7 @@ public class AnimalPicker{
 
         boolean selected = false;
         while (!selected){
-            System.out.println("Which animal would you like to see? A dog or a cat? Type 'D' for dog or 'C' for cat.");
+            System.out.println("Which animal would you like to see? A dog or a cat? Type 'D' for dog,'C' for cat, or 'F' for fish.");
             String input = sc.nextLine();
             if (input.equals("D")){
                 selected = true;
@@ -15,6 +15,10 @@ public class AnimalPicker{
             else if (input.equals("C")){
                 selected = true;
                 System.out.println("|\\---/|\n| o_o |\n \\_^_/");
+            }
+            else if (input.equals("F")){
+                selected = true;
+                System.out.println("     |\\     o\n    |  \\     o\n|\\ /    .\\  o\n| |       (\n|/ \\     /\n    |  /\n     |/");
             }
             else {
                 System.out.println("Please enter a valid input");
